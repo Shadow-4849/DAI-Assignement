@@ -1,0 +1,40 @@
+﻿REPORT
+
+
+Data:
+This data is about the transaction details of a cafe.
+Containing i)User_ID
+                  ii)Age
+                  iii)Counter
+                  iv)Steaming Platform
+                  v)Top Genre
+                  vi)Minutes Streamed per Day
+                  vii)Number of Songs liked
+                  viii)Most Played Article
+                  ix)Subscription 
+                  x)Timing of watch
+                  xi)Reeate Song Rate
+
+
+Data Cleaning:
+1)There are missing values and noisy values in the data.
+   The noisy values are ‘UNKNOWN’ and ‘ERROR’.i replaced these noisy values with nan
+2) Syntax of inputs:
+   There is no entry which doesn't following the given pattern
+   There is no entry which doesn't following the given pattern
+3)filling nans:
+I filled an Item by its age unit if there is a unique item present
+corresponding mean.
+4)checked outliers in each numerical column
+   I found there is an outliers in total spent i removed that row
+5)i removed rows still containing nans
+6)i remove unnecessary columns like User_Id 
+
+
+Data analysis:
+a)univariate analysis:
+Taken a univarient analysis between every term
+b)bivariate analysis:
+Used a loop for every getting relation between the data types
+c) multivariate analysis:
+My data is mostly average and it is nearly the same for all the different types
